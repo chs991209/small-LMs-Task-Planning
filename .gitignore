@@ -1,0 +1,23 @@
+# Secrets
+.env
+.env.*
+.secrets/
+*firebase-adminsdk*.json
+*serviceAccount*.json
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+.ipynb_checkpoints/
+
+# IDE
+.idea/
+
+# Generated outputs (regenerable)
+baseline_*.json
+RESULTS.txt
+fig89_samples_*.txt
+
+# Large data — kept local, not pushed to the fork
+datasets/
